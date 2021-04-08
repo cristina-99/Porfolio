@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.homeComponent{
+    color:$text-white-color;
+
+    .size-image{
+        background-color: $secondary-dark;
+        right:0;
+        top:0;
+        img{
+            right:0;
+            bottom:0;
+
+        }
+    }
+
+    >.content{
+        background-color:$background-light ;
+    }
+}
+
+@media (min-width: 1024px) {  
+    .homeComponent{
+    
+        .size-image{
+            right:-20%;
+            top:20%;
+            img{
+                right:15%;
+                bottom:10%;
+    
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {  
+
+}
+
+@media (min-width: 1536px) {  
+
+}

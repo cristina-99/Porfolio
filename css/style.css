@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: right;
+}
+
+.button-nav {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay-content a {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    height: auto;
+    width: 100%;
+    position: static;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-x: auto;
+    transition: 0.5s;
+  }
+  .overlay a.closebtn {
+    display: none;
+  }
+  .overlay a {
+    font-size: 16px;
+    color: #000000;
+  }
+  .overlay-content {
+    position: static;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button-nav {
+    display: none;
+  }
+}
+.homeComponent {
+  color: #f2f2f2;
+}
+.homeComponent .size-image {
+  background-color: #354654;
+  right: 0;
+  top: 0;
+}
+.homeComponent .size-image img {
+  right: 0;
+  bottom: 0;
+}
+.homeComponent > .content {
+  background-color: #3298B6;
+}
+
+@media (min-width: 1024px) {
+  .homeComponent .size-image {
+    right: -20%;
+    top: 20%;
+  }
+  .homeComponent .size-image img {
+    right: 15%;
+    bottom: 10%;
+  }
+}
+@media screen and (max-height: 450px) {
+  .button-nav {
+    display: block;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  color: #354654;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.about {
+  background-color: #3298B6;
+}
+
+.about-img {
+  right: 15%;
+}
+
+.check-btn {
+  border: 2px solid white;
+}
+
+.contact-me {
+  border-bottom: 2px solid black;
+}
+
+.project__item {
+  text-align: right;
+}
+.project__item a {
+  text-align: end;
+}
+.project__item p {
+  text-align: start;
+}
+
+.About-Contact input {
+  border-bottom: 2px solid #354654;
+}
+.About-Contact textarea {
+  height: 100px;
+  border-bottom: 2px solid #354654;
+}
+.About-Contact .contact-btn {
+  border: 2px solid #354654;
+}
+
+.clip-path {
+  clip-path: polygon(0% 0%, 83% 0, 83% 48%, 31% 68%, 0 54%);
+}
+
+.about-me, .about-meTo {
+  background-color: #3298B6;
+}
+
+.about-me {
+  transform: scale(1.1);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+  margin-right: 10px;
+}
+
+.heightFitContent {
+  height: fit-content;
+}
+
+.icons span i {
+  color: black;
+}
+
+.pageIdentifier {
+  background-color: #3298B6;
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=style.css.map */

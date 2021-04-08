@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import 'menuComponent.scss';
+@import 'homeMainComponent.scss';
+@import 'variables.scss';
+
+@media screen and (max-height: 450px) {
+    .button-nav{
+        display: block;
+    }
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
+p{
+    font-family: $RobotoMono;
+}
+h1, h2, h3{
+    font-family: $Montserrat;
+}
+nav{
+    color: #354654;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+.about{
+    background-color: #3298B6;
+}
+.about-img{
+    right: 15%;
+}
+.check-btn{
+    border: 2px solid white;
+}
+
+//-------Page Porfolio-------
+.contact-me{
+    border-bottom: 2px solid black;
+}
+.project__item{
+    text-align: right;
+    a{
+        text-align: end;
+    }
+    p{
+        text-align: start;
+    }
+}
+.About-Contact{
+    input{
+        border-bottom: 2px solid #354654;
+    }
+    textarea{
+        height: 100px;
+        border-bottom: 2px solid #354654;
+    }
+    .contact-btn{
+        border: 2px solid #354654;
+    }
+}
+
+.clip-path{
+    clip-path: polygon(0% 0%, 83% 0, 83% 48%, 31% 68%, 0 54%);
+}
+.about-me,.about-meTo{
+    background-color: #3298B6;
+}
+.about-me{
+    transform: scale(1.1);
+    box-shadow: 10px 10px rgb(0 0 0 / 25%);
+    margin-right: 10px;
+}
+ .heightFitContent{
+    height: fit-content;
+ }
+
+ .icons{
+     span{
+         i{
+             color: black;
+         }
+     }
+ }
+
+
+.pageIdentifier{
+    background-color: $background-light;
+    color:$text-white-color;
+}

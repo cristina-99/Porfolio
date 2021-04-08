@@ -1,0 +1,28 @@
+.homeComponent {
+  color: #f2f2f2;
+}
+.homeComponent .size-image {
+  background-color: #354654;
+  right: 0;
+  top: 0;
+}
+.homeComponent .size-image img {
+  right: 0;
+  bottom: 0;
+}
+.homeComponent > .content {
+  background-color: #3298B6;
+}
+
+@media (min-width: 1024px) {
+  .homeComponent .size-image {
+    right: -20%;
+    top: 20%;
+  }
+  .homeComponent .size-image img {
+    right: 15%;
+    bottom: 10%;
+  }
+}
+
+/*# sourceMappingURL=homeMainComponent.css.map */

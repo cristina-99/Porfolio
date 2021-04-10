@@ -165,7 +165,7 @@ nav {
 }
 
 .clip-path {
-  clip-path: polygon(0 0, 100% 0, 100% 71%, 18% 100%, 0 69%);
+  clip-path: polygon(0 0, 100% 0, 100% 63%, 37% 90%, 0 60%);
 }
 
 .about-me, .about-meTo {
@@ -189,6 +189,13 @@ nav {
 .pageIdentifier {
   background-color: #3298B6;
   color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    height: auto;
+    padding-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

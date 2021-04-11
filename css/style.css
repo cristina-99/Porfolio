@@ -163,6 +163,9 @@ nav {
 .About-Contact .contact-btn {
   border: 2px solid #354654;
 }
+.About-Contact__img {
+  height: 20em;
+}
 
 .clip-path {
   clip-path: polygon(0 0, 100% 0, 100% 63%, 37% 90%, 0 60%);

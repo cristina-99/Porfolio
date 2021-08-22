@@ -149,7 +149,7 @@ nav {
 .project__item a {
   text-align: end;
 }
-.project__item a :hover {
+.project__item a:hover {
   border-bottom: 2px solid #3298B6;
 }
 .project__item p {

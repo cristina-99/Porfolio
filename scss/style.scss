@@ -49,6 +49,9 @@ nav{
     text-align: right;
     a{
         text-align: end;
+        :hover{
+            border-bottom: 2px solid #3298B6;
+        }
     }
     p{
         text-align: start;

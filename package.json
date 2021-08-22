@@ -8,5 +8,8 @@
     "sass": "sass --watch scss:css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.38.0"
+  }
 }

@@ -1,93 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
-    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio</title>
-</head>
-<body>
-    <header class="page-wrapper  w-full md:w-3/5 md:py-4 m-auto  relative">
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <nav class="overlay-content block md:flex md:flex-wrap justify-end">
-                <a class="rounded-md text-center px-5 w-full md:w-24 py-1" href="./index.html">Home</a>
-                <a class="rounded-md text-center px-5 w-full md:w-24 py-1" href="./portfolio.html">Portfolio</a>
-                <a class="rounded-md text-center px-5 w-full md:w-24 py-1" href="./resume.html">Resume</a>
-                <a class="rounded-md text-center px-5 w-full md:w-24 py-1" href="./contact.html">Contact</a>
-            </nav>
-        </div>
-        <span class="button-nav" onclick="openNav()">&#9776; </span>
-</header>
+  </head>
+  <body>
+    <header class="page-wrapper w-full md:w-3/5 md:py-4 m-auto relative">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <nav class="overlay-content block md:flex md:flex-wrap justify-end">
+          <a
+            class="rounded-md text-center px-5 w-full md:w-24 py-1"
+            href="./index.html"
+            >Home</a
+          >
+          <a
+            class="rounded-md text-center px-5 w-full md:w-24 py-1"
+            href="./portfolio.html"
+            >Portfolio</a
+          >
+          <a
+            class="rounded-md text-center px-5 w-full md:w-24 py-1"
+            href="./resume.html"
+            >Resume</a
+          >
+          <a
+            class="rounded-md text-center px-5 w-full md:w-24 py-1"
+            href="./contact.html"
+            >Contact</a
+          >
+        </nav>
+      </div>
+      <span class="button-nav" onclick="openNav()">&#9776; </span>
+    </header>
 
     <main>
-        <div class=" relative container w-4/5 m-auto  flex justify-between flex-col lg:flex-row">
-            <div class="w-full lg:fixed lg:m-0 m-auto h-4/12 lg:w-2/6 heightFitContent">
-                <img class="mt-10 w-full object-cover h-56 lg:h-96 lg:h-auto lg:w-96 lg:mt-0" src="images/img2.jpg" alt="">
-                <div class="absolute top-24 left-1/2 -ml-16 lg:ml-0 lg:inset-y-60 lg:inset-y-1/2  lg:right-9 text-xl">
-                    <h1 class="font-bold text-3xl">#Porfolio</h1>
-                    <button class="contact-me mt-3">Contacte Me</button>
-                </div>
-            </div>
-            <div class="lg:absolute lg:w-3/5 flex justify-between flex-row flex-wrap  lg:ml-10 project">
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo10.png" alt="">
-                    <p>#CSS</p>
-                    <a href="https://cristina-99.github.io/TheRoad/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo7.png" alt="">
-                    <p>#CSS</p>
-                    <a href="https://cristina-99.github.io/ArchitectWebsite/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo8.png" alt="">
-                    <p>#CSS</p>
-                    <a href="https://cristina-99.github.io/WineHouse/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo9.png" alt="">
-                    <p>#Sass</p>
-                    <a href="https://cristina-99.github.io/TravelAgency/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo1.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/Agency/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item  lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo2.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/Questions/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item  lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo3.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/Running/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item  lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo4.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/SpecialistPortfolio/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo5.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/Zizurz/" class="text-right source-code">Source Code</a>
-                </div>
-                <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
-                    <img src="images/photo6.png" alt="">
-                    <p>#Tailwind #Sass</p>
-                    <a href="https://cristina-99.github.io/Gymso-Fitness/" class="text-right source-code">Source Code</a>
-                </div>
-            </div>
+      <div
+        class="
+          relative
+          container
+          w-4/5
+          m-auto
+          flex
+          justify-between
+          flex-col
+          lg:flex-row
+        "
+      >
+        <div
+          class="w-full lg:fixed lg:m-0 m-auto h-4/12 lg:w-2/6 heightFitContent"
+        >
+          <img
+            class="
+              mt-10
+              w-full
+              object-cover
+              h-56
+              lg:h-96 lg:h-auto lg:w-96 lg:mt-0
+            "
+            src="images/img2.jpg"
+            alt=""
+          />
+          <div
+            class="
+              absolute
+              top-24
+              left-1/2
+              -ml-16
+              lg:ml-0 lg:inset-y-60 lg:inset-y-1/2 lg:right-9
+              text-xl
+            "
+          >
+            <h1 class="font-bold text-3xl">#Porfolio</h1>
+            <button class="contact-me mt-3">Contacte Me</button>
+          </div>
         </div>
+        <div
+          class="
+            lg:absolute lg:w-3/5
+            flex
+            justify-between
+            flex-row flex-wrap
+            lg:ml-10
+            project
+          "
+        >
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo10.png" alt="" />
+            <p>#CSS</p>
+            <a
+              href="https://cristina-99.github.io/TheRoad/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo7.png" alt="" />
+            <p>#CSS</p>
+            <a
+              href="https://cristina-99.github.io/ArchitectWebsite/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo8.png" alt="" />
+            <p>#CSS</p>
+            <a
+              href="https://cristina-99.github.io/WineHouse/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo9.png" alt="" />
+            <p>#Sass</p>
+            <a
+              href="https://cristina-99.github.io/TravelAgency/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo1.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/Agency/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo2.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/Questions/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo3.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/Running/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo4.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/SpecialistPortfolio/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo5.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/Zizurz/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+          <div class="project__item lg:w-2/4 md:w-1/2 w-full p-5">
+            <img src="images/photo6.png" alt="" />
+            <p>#Tailwind #Sass</p>
+            <a
+              href="https://cristina-99.github.io/Gymso-Fitness/"
+              class="text-right source-code"
+              >Source Code</a
+            >
+          </div>
+        </div>
+      </div>
     </main>
-</body>
-<script src="./js/app.js"></script>
-<script src="https://kit.fontawesome.com/17e48d5a94.js" crossorigin="anonymous"></script>
+  </body>
+  <script src="./js/app.js"></script>
+  <script
+    src="https://kit.fontawesome.com/17e48d5a94.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
-
